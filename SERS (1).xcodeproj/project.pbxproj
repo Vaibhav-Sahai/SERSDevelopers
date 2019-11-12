@@ -37,7 +37,7 @@
 /* Begin PBXFileReference section */
 		80E04CC4237ABA48008C09AC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../../../Downloads/Main.storyboard; sourceTree = "<group>"; };
 		80E04CC6237ABA97008C09AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../Downloads/Assets.xcassets; sourceTree = "<group>"; };
-		80FC965923735B6300BBFF55 /* SERS .app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SERS .app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80FC965923735B6300BBFF55 /* SERS_Prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SERS_Prototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80FC965C23735B6300BBFF55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80FC965E23735B6300BBFF55 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		80FC966023735B6300BBFF55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 		80FC965A23735B6300BBFF55 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				80FC965923735B6300BBFF55 /* SERS .app */,
+				80FC965923735B6300BBFF55 /* SERS_Prototype.app */,
 				80FC966F23735B6500BBFF55 /* SERS (1)Tests.xctest */,
 				80FC967A23735B6500BBFF55 /* SERS (1)UITests.xctest */,
 			);
@@ -145,7 +145,7 @@
 			);
 			name = "SERS (1)";
 			productName = "SERS (1)";
-			productReference = 80FC965923735B6300BBFF55 /* SERS .app */;
+			productReference = 80FC965923735B6300BBFF55 /* SERS_Prototype.app */;
 			productType = "com.apple.product-type.application";
 		};
 		80FC966E23735B6500BBFF55 /* SERS (1)Tests */ = {
@@ -434,7 +434,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Trial.SERS--1-";
-				PRODUCT_NAME = "SERS ";
+				PRODUCT_NAME = SERS_Prototype;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,7 +452,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Trial.SERS--1-";
-				PRODUCT_NAME = "SERS ";
+				PRODUCT_NAME = SERS_Prototype;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
