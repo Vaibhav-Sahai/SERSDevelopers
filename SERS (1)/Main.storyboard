@@ -64,7 +64,7 @@
                                 <rect key="frame" x="87" y="600" width="240" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
-                                <state key="normal" title="Login" backgroundImage="login-1">
+                                <state key="normal" title="Login" backgroundImage="login">
                                     <color key="titleColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -196,7 +196,7 @@
                                     <constraint firstAttribute="height" constant="64" id="Q5S-Nr-ipk"/>
                                 </constraints>
                                 <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                <state key="normal" title="Login Into An Account" backgroundImage="login-1">
+                                <state key="normal" title="Login Into An Account" backgroundImage="login">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
@@ -479,7 +479,7 @@
                                     <segue destination="gYP-UR-ovI" kind="show" id="gIw-42-3g2"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="silver-card-1" translatesAutoresizingMaskIntoConstraints="NO" id="SAw-h7-lN2">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="silver-card" translatesAutoresizingMaskIntoConstraints="NO" id="SAw-h7-lN2">
                                 <rect key="frame" x="41" y="159" width="333" height="225"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -833,9 +833,10 @@
                                     <segue destination="nzg-8v-UFN" kind="show" id="4vv-Nb-Yc3"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QvM-3z-Ry9">
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QvM-3z-Ry9">
                                 <rect key="frame" x="37" y="607" width="346" height="205"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="VolunteeringIcon"/>
                                 <connections>
                                     <segue destination="JV8-HC-7K7" kind="show" id="IXf-iE-beZ"/>
                                 </connections>
@@ -1044,7 +1045,7 @@
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="join-graphic1" translatesAutoresizingMaskIntoConstraints="NO" id="Zm6-KR-PML">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VolunteeringIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Zm6-KR-PML">
                                 <rect key="frame" x="44" y="145" width="326" height="205"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1440,7 +1441,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2019-11-11 at 10.32.25 AM" translatesAutoresizingMaskIntoConstraints="NO" id="gGz-K6-f8D">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CreditIcon" translatesAutoresizingMaskIntoConstraints="NO" id="gGz-K6-f8D">
                                 <rect key="frame" x="87" y="169" width="240" height="154"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1530,22 +1531,23 @@
     </scenes>
     <resources>
         <image name="Background Gradient @3" width="1242" height="2688"/>
+        <image name="CreditIcon" width="564" height="362"/>
         <image name="Email" width="285" height="69"/>
-        <image name="Screen Shot 2019-11-11 at 10.32.25 AM" width="564" height="362"/>
         <image name="Screen Shot 2019-11-11 at 10.45.16 AM" width="62" height="40"/>
+        <image name="VolunteeringIcon" width="1200" height="720"/>
         <image name="dewa" width="600" height="260"/>
         <image name="images" width="259" height="195"/>
         <image name="join-graphic1" width="1200" height="720"/>
+        <image name="login" width="285" height="69"/>
         <image name="login-1" width="285" height="69"/>
         <image name="login-google-account-computer-icons-user-activity" width="800" height="800"/>
         <image name="silver-card" width="154.66667175292969" height="101"/>
-        <image name="silver-card-1" width="154.66667175292969" height="101"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="6Of-C5-syG"/>
+        <segue reference="tv9-6j-nG3"/>
         <segue reference="q3U-wt-qZ1"/>
         <segue reference="rrh-WK-HTp"/>
-        <segue reference="xHt-sW-kwF"/>
+        <segue reference="s9m-Jk-mij"/>
         <segue reference="yGY-k5-dD0"/>
         <segue reference="ci0-fn-RYQ"/>
         <segue reference="3He-g6-D3y"/>
