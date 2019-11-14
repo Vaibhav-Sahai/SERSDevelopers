@@ -862,7 +862,7 @@
                                 <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <gestureRecognizers/>
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <state key="normal" backgroundImage="login-google-account-computer-icons-user-activity">
+                                <state key="normal" backgroundImage="LoginIcon">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
@@ -1533,6 +1533,7 @@
         <image name="Background Gradient @3" width="1242" height="2688"/>
         <image name="CreditIcon" width="564" height="362"/>
         <image name="Email" width="285" height="69"/>
+        <image name="LoginIcon" width="800" height="800"/>
         <image name="Screen Shot 2019-11-11 at 10.45.16 AM" width="62" height="40"/>
         <image name="VolunteeringIcon" width="1200" height="720"/>
         <image name="dewa" width="600" height="260"/>
@@ -1540,11 +1541,10 @@
         <image name="join-graphic1" width="1200" height="720"/>
         <image name="login" width="285" height="69"/>
         <image name="login-1" width="285" height="69"/>
-        <image name="login-google-account-computer-icons-user-activity" width="800" height="800"/>
         <image name="silver-card" width="154.66667175292969" height="101"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="tv9-6j-nG3"/>
+        <segue reference="6Of-C5-syG"/>
         <segue reference="q3U-wt-qZ1"/>
         <segue reference="rrh-WK-HTp"/>
         <segue reference="s9m-Jk-mij"/>
