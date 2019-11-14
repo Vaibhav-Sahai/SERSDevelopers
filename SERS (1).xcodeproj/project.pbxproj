@@ -102,9 +102,9 @@
 				80FC965C23735B6300BBFF55 /* AppDelegate.swift */,
 				80FC965E23735B6300BBFF55 /* SceneDelegate.swift */,
 				80FC966023735B6300BBFF55 /* ViewController.swift */,
+				80FC966723735B6400BBFF55 /* LaunchScreen.storyboard */,
 				EFFBA5F0237BB67E00062556 /* Main.storyboard */,
 				EF5B767D237C8200007B4F24 /* Assets.xcassets */,
-				80FC966723735B6400BBFF55 /* LaunchScreen.storyboard */,
 				80FC966A23735B6400BBFF55 /* Info.plist */,
 			);
 			path = "SERS (1)";
