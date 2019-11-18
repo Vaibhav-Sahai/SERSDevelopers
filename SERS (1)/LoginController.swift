@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  LoginController.swift
 //  SERS (1)
 //
 //  Created by Abijith Nair on 11/18/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class LoginController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
