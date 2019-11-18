@@ -183,8 +183,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome To S.E.R.S" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rAA-Zf-AEx">
-                                <rect key="frame" x="75.666666666666686" y="280.66666666666669" width="263" height="42"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Welcome To S.E.R.S" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rAA-Zf-AEx">
+                                <rect key="frame" x="76" y="281" width="274" height="42"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1676,15 +1676,6 @@
                     <view key="view" contentMode="scaleToFill" id="PS1-0V-gwG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GGJ-7F-b4R">
-                                <rect key="frame" x="-202" y="515" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <items>
-                                    <barButtonItem title="Item" id="Wtd-xc-tAX"/>
-                                </items>
-                            </toolbar>
-                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="heG-76-JFb"/>
                     </view>
@@ -2087,7 +2078,7 @@
                     <view key="view" contentMode="scaleToFill" id="bfh-kX-GZR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.96078431369999995" green="0.94901960780000005" blue="0.88235294119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="RMu-sv-2ra"/>
                     </view>
                 </viewController>
@@ -2155,17 +2146,16 @@
         <image name="user-member-social-net-avatar-profile-icon-vector-22965341" width="238" height="250"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Hhc-a4-iaV"/>
-        <segue reference="tv9-6j-nG3"/>
+        <segue reference="6Of-C5-syG"/>
         <segue reference="zKw-8a-cdg"/>
         <segue reference="q3U-wt-qZ1"/>
         <segue reference="HN8-RN-sVq"/>
-        <segue reference="hbF-dI-DVG"/>
-        <segue reference="29k-pv-kQd"/>
+        <segue reference="rrh-WK-HTp"/>
+        <segue reference="s9m-Jk-mij"/>
         <segue reference="q3q-93-Zra"/>
         <segue reference="gIw-42-3g2"/>
-        <segue reference="aof-dS-SOx"/>
+        <segue reference="yGY-k5-dD0"/>
         <segue reference="ci0-fn-RYQ"/>
-        <segue reference="12k-hq-J1N"/>
+        <segue reference="3He-g6-D3y"/>
     </inferredMetricsTieBreakers>
 </document>
