@@ -243,6 +243,12 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v6S-Mb-7Q6">
+                                <rect key="frame" x="174" y="0.0" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="lKs-Je-flH"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="AtF-AQ-2em"/>
+                            </scrollView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Register An Account" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xcw-AH-bFY">
                                 <rect key="frame" x="108" y="136" width="196" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2151,11 +2157,11 @@
         <segue reference="q3U-wt-qZ1"/>
         <segue reference="HN8-RN-sVq"/>
         <segue reference="rrh-WK-HTp"/>
-        <segue reference="s9m-Jk-mij"/>
+        <segue reference="NXz-bv-H2p"/>
         <segue reference="q3q-93-Zra"/>
         <segue reference="gIw-42-3g2"/>
         <segue reference="yGY-k5-dD0"/>
         <segue reference="ci0-fn-RYQ"/>
-        <segue reference="3He-g6-D3y"/>
+        <segue reference="12k-hq-J1N"/>
     </inferredMetricsTieBreakers>
 </document>
