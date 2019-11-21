@@ -12,7 +12,7 @@
             <objects>
                 <viewController title="Login controller" id="MiR-no-IZ5" customClass="LoginController" customModule="SERS_Prototype" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="b4F-DH-JYG">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background Gradient @3" translatesAutoresizingMaskIntoConstraints="NO" id="8dM-1c-QD0" userLabel="BackgroundImage">
@@ -159,14 +159,14 @@
             <objects>
                 <viewController id="BYZ-38-t0r" userLabel="WelcomePage" customClass="ViewController" customModule="SERS_Prototype" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background Gradient @3" translatesAutoresizingMaskIntoConstraints="NO" id="uQS-6d-chk">
-                                <rect key="frame" x="0.0" y="-88" width="414" height="1018"/>
+                                <rect key="frame" x="0.0" y="-44" width="414" height="984"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZPU-tC-l9o" userLabel="RegisterButton">
-                                <rect key="frame" x="64.666666666666686" y="475.66666666666669" width="285" height="69.000000000000057"/>
+                                <rect key="frame" x="64.666666666666686" y="502.66666666666674" width="285" height="69"/>
                                 <gestureRecognizers/>
                                 <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="Register A New Account" backgroundImage="Email">
@@ -178,19 +178,19 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login Or Register" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jBT-qF-UNu" userLabel="IntroButton">
-                                <rect key="frame" x="140.66666666666666" y="335.66666666666669" width="132.99999999999997" height="21"/>
+                                <rect key="frame" x="140.66666666666666" y="362.66666666666669" width="132.99999999999997" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome To S.E.R.S" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rAA-Zf-AEx">
-                                <rect key="frame" x="75.333333333333343" y="253.66666666666663" width="263.33333333333326" height="42"/>
+                                <rect key="frame" x="75.333333333333343" y="280.66666666666669" width="263.33333333333326" height="42"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="edq-lU-5R8" userLabel="LoginButton">
-                                <rect key="frame" x="65" y="389" width="284" height="64"/>
+                                <rect key="frame" x="65" y="416" width="284" height="64"/>
                                 <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="Q5S-Nr-ipk"/>
@@ -236,7 +236,7 @@
             <objects>
                 <viewController id="5ZS-EH-9v5" userLabel="RegisterPage" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XXb-JP-7sq">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background Gradient @3" translatesAutoresizingMaskIntoConstraints="NO" id="f47-sT-z5M">
@@ -385,122 +385,94 @@
             </objects>
             <point key="canvasLocation" x="100.00000000000001" y="810.9375"/>
         </scene>
-        <!--HelpPage-->
-        <scene sceneID="qIH-lo-Xeg">
+        <!--Help Controller-->
+        <scene sceneID="Thb-VL-ok1">
             <objects>
-                <viewController id="ju7-rf-jtJ" userLabel="HelpPage" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Om1-C3-lnV">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ctm-XR-bNa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="PB0-yZ-zaJ" userLabel="Help Controller" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IdH-OQ-6eM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HELP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jDA-kp-jaj">
-                                <rect key="frame" x="0.0" y="20" width="414" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1RN-re-ATa">
-                                <rect key="frame" x="20" y="165" width="374" height="239"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet pharetra turpis in commodo. Aenean vitae lorem risus. Etiam arcu dui, pellentesque id dictum id, porta maximus neque. Ut viverra sem est. Maecenas eu consequat augue. Integer faucibus vitae erat in gravida. Morbi eget dui id orci vehicula iaculis. In nec quam mauris. In ullamcorper elit eu sem pellentesque, nec bibendum ligula vulputate
-</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DaV-YP-mK1">
-                                <rect key="frame" x="0.0" y="57" width="49" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Back">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="Yp9-Q6-Wz3" kind="show" id="7cj-mw-3lb"/>
-                                </connections>
-                            </button>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="blr-Ah-2TL">
-                                <rect key="frame" x="0.0" y="798" width="137" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <gestureRecognizers/>
-                                <items>
-                                    <barButtonItem title="GIFTS" width="160.66666666666669" id="awo-JN-qFa">
-                                        <connections>
-                                            <segue destination="o05-fN-AI3" kind="show" id="kzr-JG-GhM"/>
-                                        </connections>
-                                    </barButtonItem>
-                                </items>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="dh2-Y2-Et4" appends="YES" id="DV7-Eu-sdA"/>
-                                </connections>
-                            </toolbar>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Eb-ui-KnQ">
-                                <rect key="frame" x="137" y="798" width="141" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <gestureRecognizers/>
-                                <items>
-                                    <barButtonItem title="HOME" width="124.33333333333331" id="LyW-fb-2fb">
-                                        <connections>
-                                            <segue destination="Yp9-Q6-Wz3" kind="show" id="Lrr-B0-wXw"/>
-                                        </connections>
-                                    </barButtonItem>
-                                </items>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="dh2-Y2-Et4" appends="YES" id="psC-Dc-9f1"/>
-                                </connections>
-                            </toolbar>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CF7-PN-JXi">
-                                <rect key="frame" x="278" y="798" width="136" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <gestureRecognizers/>
-                                <items>
-                                    <barButtonItem title="SUPPORT" width="128.33333333333331" id="Roc-kh-sPN">
-                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <connections>
-                                            <segue destination="g7y-yN-zWX" kind="show" id="Jea-bY-9wb"/>
-                                        </connections>
-                                    </barButtonItem>
-                                </items>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="dh2-Y2-Et4" appends="YES" id="sAE-xg-uPh"/>
-                                </connections>
-                            </toolbar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A5A-5h-Dil">
-                                <rect key="frame" x="3" y="0.0" width="411" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qEp-z3-uHf">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6p9-i0-55s">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HELP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xZq-Oo-3Mf">
+                                                <rect key="frame" x="0.0" y="8" width="414" height="73"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <color key="textColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="FAQS" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Mbz-YE-KVU">
+                                                <rect key="frame" x="8" y="88" width="398" height="773"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.96078431372549022" green="0.94901960784313721" blue="0.88235294117647056" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BsW-VR-rLF">
+                                                <rect key="frame" x="0.0" y="-90" width="414" height="111"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NHU-he-Exx">
+                                                <rect key="frame" x="0.0" y="869" width="414" height="66"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Back To Home">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="Yp9-Q6-Wz3" kind="show" id="Ql4-9A-1c0"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.96078431372549022" green="0.94901960784313721" blue="0.88235294117647056" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.96078431372549022" green="0.94901960784313721" blue="0.88235294117647056" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="6p9-i0-55s" firstAttribute="width" secondItem="qEp-z3-uHf" secondAttribute="width" id="6ae-0l-xTl"/>
+                                    <constraint firstItem="6p9-i0-55s" firstAttribute="height" secondItem="qEp-z3-uHf" secondAttribute="height" priority="250" id="9Kj-TB-pKV"/>
+                                    <constraint firstAttribute="bottom" secondItem="6p9-i0-55s" secondAttribute="bottom" id="APJ-DT-sTZ"/>
+                                    <constraint firstItem="6p9-i0-55s" firstAttribute="leading" secondItem="qEp-z3-uHf" secondAttribute="leading" id="IM2-Qw-6xe"/>
+                                    <constraint firstAttribute="trailing" secondItem="6p9-i0-55s" secondAttribute="trailing" id="l0c-4p-hdK"/>
+                                    <constraint firstItem="6p9-i0-55s" firstAttribute="top" secondItem="qEp-z3-uHf" secondAttribute="top" id="zsN-mk-pFL"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="dvL-r5-f71"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="h71-Rt-ucr"/>
+                            </scrollView>
                         </subviews>
-                        <color key="backgroundColor" red="0.96078431372549022" green="0.94901960784313721" blue="0.88235294117647056" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="Igv-QY-DOY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="gzk-tU-dXV" firstAttribute="trailing" secondItem="qEp-z3-uHf" secondAttribute="trailing" id="ghK-ny-bGd"/>
+                            <constraint firstItem="gzk-tU-dXV" firstAttribute="top" secondItem="qEp-z3-uHf" secondAttribute="top" constant="44" id="mx4-D2-OIW"/>
+                            <constraint firstItem="qEp-z3-uHf" firstAttribute="leading" secondItem="gzk-tU-dXV" secondAttribute="leading" id="tqp-m6-0yf"/>
+                            <constraint firstItem="qEp-z3-uHf" firstAttribute="bottom" secondItem="gzk-tU-dXV" secondAttribute="bottom" constant="34" id="zch-mq-53c"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="gzk-tU-dXV"/>
                     </view>
-                    <navigationItem key="navigationItem" id="neW-1P-s44"/>
-                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationItem key="navigationItem" id="aBC-KK-iN1"/>
+                    <size key="freeformSize" width="414" height="1000"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ou9-LC-Fsn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="dh2-Y2-Et4"/>
             </objects>
-            <point key="canvasLocation" x="962.31884057971024" y="807.58928571428567"/>
+            <point key="canvasLocation" x="924.63768115942037" y="827.67857142857144"/>
         </scene>
         <!--NoLCardInfo-->
         <scene sceneID="91S-dG-KuF">
             <objects>
                 <viewController id="nzg-8v-UFN" userLabel="NoLCardInfo" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jST-BV-iKc">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w7o-YM-Bkv">
@@ -562,7 +534,7 @@
             <objects>
                 <viewController id="gYP-UR-ovI" userLabel="NoLCard" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zFa-Do-rvu">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOL CARD" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WZz-1u-hbz">
@@ -574,7 +546,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q1U-Mf-Cx8">
-                                <rect key="frame" x="0.0" y="798" width="135" height="44"/>
+                                <rect key="frame" x="0.0" y="852" width="135" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
@@ -584,7 +556,7 @@
                                 <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </toolbar>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NLz-zo-LI1">
-                                <rect key="frame" x="135" y="798" width="141" height="44"/>
+                                <rect key="frame" x="135" y="852" width="141" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
@@ -594,7 +566,7 @@
                                 <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </toolbar>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tlj-i5-AJQ">
-                                <rect key="frame" x="276" y="798" width="146" height="44"/>
+                                <rect key="frame" x="276" y="852" width="146" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
@@ -651,7 +623,7 @@
             <objects>
                 <viewController id="OOy-IK-GLs" userLabel="VolunteeringScreen" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="V0f-HT-cQI">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="VOLUNTARY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uyt-7u-9tl">
@@ -663,7 +635,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AaF-4V-uhi">
-                                <rect key="frame" x="0.0" y="798" width="139" height="44"/>
+                                <rect key="frame" x="0.0" y="852" width="139" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
@@ -673,7 +645,7 @@
                                 <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </toolbar>
                             <toolbar opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DJD-2u-ftF">
-                                <rect key="frame" x="139" y="798" width="146" height="44"/>
+                                <rect key="frame" x="139" y="852" width="146" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
@@ -683,7 +655,7 @@
                                 <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </toolbar>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dMi-RF-6S7">
-                                <rect key="frame" x="285" y="798" width="129" height="44"/>
+                                <rect key="frame" x="285" y="852" width="129" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
@@ -922,7 +894,7 @@
             <objects>
                 <viewController id="Yp9-Q6-Wz3" userLabel="HomePage" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="crD-0g-rV8">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="S.E.R.S" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QL6-f9-Q4e">
@@ -933,24 +905,8 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Oy-L0-D2F">
-                                <rect key="frame" x="97" y="797" width="104" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <gestureRecognizers/>
-                                <items>
-                                    <barButtonItem title="HOME" width="194.33333333333331" id="KjH-iT-JwX">
-                                        <color key="tintColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
-                                    </barButtonItem>
-                                </items>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="96L-vv-uKE" appends="YES" id="en3-aH-s3o"/>
-                                </connections>
-                            </toolbar>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="13X-Z7-lkQ">
-                                <rect key="frame" x="201" y="797" width="105" height="44"/>
+                                <rect key="frame" x="266" y="851" width="147" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <gestureRecognizers/>
@@ -958,7 +914,7 @@
                                     <barButtonItem title="HELP" width="120.33333333333331" id="gqb-QN-Xlq">
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
-                                            <segue destination="ju7-rf-jtJ" kind="show" id="yGY-k5-dD0"/>
+                                            <segue destination="PB0-yZ-zaJ" kind="show" id="UVE-86-tkV"/>
                                         </connections>
                                     </barButtonItem>
                                 </items>
@@ -969,7 +925,7 @@
                                 </connections>
                             </toolbar>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KD4-Kt-QJR">
-                                <rect key="frame" x="0.0" y="797" width="97" height="44"/>
+                                <rect key="frame" x="0.0" y="851" width="147" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <gestureRecognizers/>
@@ -1072,20 +1028,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Hb-yg-8n7">
-                                <rect key="frame" x="306" y="797" width="119" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <barButtonItem title="SUPPORT" width="149" id="os3-Bh-TFC">
-                                        <connections>
-                                            <segue destination="g7y-yN-zWX" kind="show" id="q3U-wt-qZ1"/>
-                                        </connections>
-                                    </barButtonItem>
-                                </items>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </toolbar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ceL-Ch-TOJ">
                                 <rect key="frame" x="387" y="68" width="27" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1102,6 +1044,22 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="ci0-fn-RYQ"/>
                                 </connections>
                             </button>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Oy-L0-D2F">
+                                <rect key="frame" x="147" y="851" width="135" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <items>
+                                    <barButtonItem title="HOME" width="194.33333333333331" id="KjH-iT-JwX">
+                                        <color key="tintColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                    </barButtonItem>
+                                </items>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="96L-vv-uKE" appends="YES" id="en3-aH-s3o"/>
+                                </connections>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" red="0.96078431372549022" green="0.94901960784313721" blue="0.88235294117647056" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="xYZ-jW-iuo"/>
@@ -1121,7 +1079,7 @@
             <objects>
                 <viewController id="o05-fN-AI3" userLabel="Gifts" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2dn-2v-ouH">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GIFTS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uHn-D0-eqZ">
@@ -1161,14 +1119,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rR1-Eq-Rou">
-                                <rect key="frame" x="0.0" y="798" width="156" height="44"/>
+                                <rect key="frame" x="0.0" y="852" width="156" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <gestureRecognizers/>
                                 <items>
                                     <barButtonItem title="HELP" width="318.66666666666669" id="tdH-oO-dCM">
                                         <connections>
-                                            <segue destination="ju7-rf-jtJ" kind="show" id="xYy-KY-CW6"/>
+                                            <segue destination="PB0-yZ-zaJ" kind="show" id="Ftq-mn-X19"/>
                                         </connections>
                                     </barButtonItem>
                                 </items>
@@ -1179,7 +1137,7 @@
                                 </connections>
                             </toolbar>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rhW-NQ-kov">
-                                <rect key="frame" x="156" y="798" width="127" height="44"/>
+                                <rect key="frame" x="156" y="852" width="127" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <gestureRecognizers/>
@@ -1197,7 +1155,7 @@
                                 </connections>
                             </toolbar>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gMF-HK-ASp">
-                                <rect key="frame" x="283" y="798" width="131" height="44"/>
+                                <rect key="frame" x="283" y="852" width="131" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <gestureRecognizers/>
@@ -1231,7 +1189,7 @@
             <objects>
                 <viewController id="JV8-HC-7K7" userLabel="VolunteeringInfo" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4Sq-Dk-WyY">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Td4-Te-89e">
@@ -1397,7 +1355,7 @@
             <objects>
                 <viewController id="g7y-yN-zWX" userLabel="Contact" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ABx-nI-KrI">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CONTACT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="off-ag-d8y">
@@ -1456,7 +1414,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cnJ-ox-vHE">
-                                <rect key="frame" x="0.0" y="798" width="135" height="44"/>
+                                <rect key="frame" x="0.0" y="852" width="135" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <gestureRecognizers/>
@@ -1474,7 +1432,7 @@
                                 </connections>
                             </toolbar>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vpa-Xr-b7c">
-                                <rect key="frame" x="135" y="798" width="147" height="44"/>
+                                <rect key="frame" x="135" y="852" width="147" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <gestureRecognizers/>
@@ -1492,16 +1450,12 @@
                                 </connections>
                             </toolbar>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uKa-ME-2cT">
-                                <rect key="frame" x="282" y="798" width="132" height="44"/>
+                                <rect key="frame" x="282" y="852" width="132" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <gestureRecognizers/>
                                 <items>
-                                    <barButtonItem title="HELP" width="137.66666666666669" id="9Op-Xm-wbg">
-                                        <connections>
-                                            <segue destination="ju7-rf-jtJ" kind="show" id="aof-dS-SOx"/>
-                                        </connections>
-                                    </barButtonItem>
+                                    <barButtonItem title="HELP" width="137.66666666666669" id="9Op-Xm-wbg"/>
                                 </items>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1530,7 +1484,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ywJ-mz-8ak" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="6aT-lR-ZjW"/>
             </objects>
-            <point key="canvasLocation" x="3518.840579710145" y="-570.53571428571422"/>
+            <point key="canvasLocation" x="3512" y="-571"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tUW-6v-p8O">
@@ -1647,7 +1601,7 @@
             <objects>
                 <viewController id="Mpn-tf-YQg" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Z6M-bH-Uut">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOL CARD" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a5U-Eo-v3q">
@@ -1694,7 +1648,7 @@
                                 </connections>
                             </button>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KFu-mo-T0B">
-                                <rect key="frame" x="0.0" y="798" width="127" height="44"/>
+                                <rect key="frame" x="0.0" y="852" width="127" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
@@ -1705,7 +1659,7 @@
                                 <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </toolbar>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pqr-lT-AEd">
-                                <rect key="frame" x="127" y="798" width="150" height="44"/>
+                                <rect key="frame" x="127" y="852" width="150" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
@@ -1719,7 +1673,7 @@
                                 <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </toolbar>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tA1-LA-CUh">
-                                <rect key="frame" x="277" y="798" width="137" height="44"/>
+                                <rect key="frame" x="277" y="852" width="137" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
@@ -1788,7 +1742,7 @@
             <objects>
                 <viewController interfaceStyle="light" id="MrD-WG-Aw2" userLabel="DEWABillInfo" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aDD-lg-SgM">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DEWABackground" translatesAutoresizingMaskIntoConstraints="NO" id="Uga-YZ-FlO">
@@ -1856,7 +1810,7 @@
             <objects>
                 <viewController id="r00-VT-ZIl" userLabel="Cart" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rHW-a4-3Mj">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CART" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9We-u6-jwt">
@@ -1919,7 +1873,7 @@
             <objects>
                 <viewController id="6na-fX-qA9" userLabel="Checkout" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FMg-AV-h7a">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CreditIcon" translatesAutoresizingMaskIntoConstraints="NO" id="gGz-K6-f8D">
@@ -2057,13 +2011,12 @@
     <inferredMetricsTieBreakers>
         <segue reference="6Of-C5-syG"/>
         <segue reference="hfU-jQ-cRD"/>
-        <segue reference="Jea-bY-9wb"/>
-        <segue reference="bBY-Yw-o7p"/>
-        <segue reference="rrh-WK-HTp"/>
-        <segue reference="tjA-ZO-g2d"/>
+        <segue reference="aqN-dE-fIS"/>
+        <segue reference="hbF-dI-DVG"/>
+        <segue reference="Ql4-9A-1c0"/>
         <segue reference="q3q-93-Zra"/>
         <segue reference="gIw-42-3g2"/>
-        <segue reference="yGY-k5-dD0"/>
+        <segue reference="Ftq-mn-X19"/>
         <segue reference="ci0-fn-RYQ"/>
         <segue reference="12k-hq-J1N"/>
     </inferredMetricsTieBreakers>
