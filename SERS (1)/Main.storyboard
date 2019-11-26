@@ -759,11 +759,11 @@
             <objects>
                 <viewController id="Z6V-Yf-oGh" userLabel="DEWAHistory" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="saf-nn-t7s">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackgroundInfogradient" translatesAutoresizingMaskIntoConstraints="NO" id="oWC-oL-0Ks">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lPe-mI-Pg8">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="36"/>
@@ -801,7 +801,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a4J-qa-7Ei">
-                                <rect key="frame" x="0.0" y="852" width="143" height="44"/>
+                                <rect key="frame" x="0.0" y="798" width="143" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
@@ -811,7 +811,7 @@
                                 <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </toolbar>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eNI-ze-moq">
-                                <rect key="frame" x="292" y="852" width="132" height="44"/>
+                                <rect key="frame" x="292" y="798" width="132" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
@@ -826,7 +826,7 @@
                                 <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </toolbar>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SHW-Ju-A76">
-                                <rect key="frame" x="143" y="852" width="149" height="44"/>
+                                <rect key="frame" x="143" y="798" width="149" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
@@ -1411,11 +1411,11 @@
             <objects>
                 <viewController id="W1W-Kx-tn3" userLabel="DEWABill" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FKA-eC-e1c">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackgroundInfogradient" translatesAutoresizingMaskIntoConstraints="NO" id="UG1-ki-ZNo">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DEWA BILL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="07I-XO-hIb">
                                 <rect key="frame" x="0.0" y="24" width="414" height="66"/>
@@ -1435,7 +1435,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h9e-9v-lxg">
-                                <rect key="frame" x="146" y="852" width="139" height="44"/>
+                                <rect key="frame" x="146" y="798" width="139" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
@@ -1445,7 +1445,7 @@
                                 <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </toolbar>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IAX-TA-2w9">
-                                <rect key="frame" x="285" y="852" width="129" height="44"/>
+                                <rect key="frame" x="285" y="798" width="129" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
@@ -1480,7 +1480,7 @@
                                 </connections>
                             </button>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BjY-BS-Ay4">
-                                <rect key="frame" x="0.0" y="852" width="146" height="44"/>
+                                <rect key="frame" x="0.0" y="798" width="146" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
@@ -1659,11 +1659,11 @@
             <objects>
                 <viewController id="m5Y-1q-mcY" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IKR-HI-YbV">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackgroundInfogradient" translatesAutoresizingMaskIntoConstraints="NO" id="KZJ-bY-FFi">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DEWA BILL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="enS-YP-Rpw">
                                 <rect key="frame" x="0.0" y="29" width="414" height="64"/>
@@ -1710,7 +1710,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lck-Ts-2sF">
-                                <rect key="frame" x="0.0" y="852" width="139" height="44"/>
+                                <rect key="frame" x="0.0" y="798" width="139" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
@@ -1724,7 +1724,7 @@
                                 <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </toolbar>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tYy-o3-34C">
-                                <rect key="frame" x="139" y="852" width="140" height="44"/>
+                                <rect key="frame" x="139" y="798" width="140" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
@@ -1738,7 +1738,7 @@
                                 <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </toolbar>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3QK-EX-VQv">
-                                <rect key="frame" x="279" y="852" width="135" height="44"/>
+                                <rect key="frame" x="279" y="798" width="135" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
@@ -2234,18 +2234,18 @@
     <inferredMetricsTieBreakers>
         <segue reference="rpa-sX-0go"/>
         <segue reference="B8f-jN-uv6"/>
-        <segue reference="i6W-h5-Xty"/>
+        <segue reference="6Of-C5-syG"/>
         <segue reference="HOJ-aZ-PYc"/>
-        <segue reference="zKw-8a-cdg"/>
-        <segue reference="HN8-RN-sVq"/>
-        <segue reference="97K-3J-i6n"/>
-        <segue reference="3CF-15-6ar"/>
+        <segue reference="hfU-jQ-cRD"/>
+        <segue reference="aqN-dE-fIS"/>
+        <segue reference="7iB-Sh-coP"/>
+        <segue reference="AQY-fp-Rh1"/>
         <segue reference="wmQ-oh-pbT"/>
-        <segue reference="C2c-SF-HIl"/>
+        <segue reference="q3q-93-Zra"/>
         <segue reference="XJC-6g-bhY"/>
         <segue reference="vpE-Iw-sa2"/>
         <segue reference="Ftq-mn-X19"/>
         <segue reference="ci0-fn-RYQ"/>
-        <segue reference="12k-hq-J1N"/>
+        <segue reference="3He-g6-D3y"/>
     </inferredMetricsTieBreakers>
 </document>
