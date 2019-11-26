@@ -1034,7 +1034,7 @@
                                     <outletCollection property="gestureRecognizers" destination="96L-vv-uKE" appends="YES" id="cvH-4O-2Q4"/>
                                 </connections>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VolunteeringIcon" translatesAutoresizingMaskIntoConstraints="NO" id="194-O8-YfX">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="volunteer" translatesAutoresizingMaskIntoConstraints="NO" id="194-O8-YfX">
                                 <rect key="frame" x="32" y="596" width="350" height="227"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1259,23 +1259,23 @@
                                     <segue destination="OOy-IK-GLs" kind="show" id="XJC-6g-bhY"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VolunteeringIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Zm6-KR-PML">
-                                <rect key="frame" x="44" y="145" width="326" height="276"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="volunteer" translatesAutoresizingMaskIntoConstraints="NO" id="Zm6-KR-PML">
+                                <rect key="frame" x="44" y="145" width="326" height="220"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gwg-Nu-wHw">
-                                <rect key="frame" x="44" y="429" width="326" height="309"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">“Volunteers are not paid because they are useless, but because they are priceless”. At SERS, we appreciate your efforts to help achieve a sustainable future. We encourage volunteers of ages 15-21 to come forward to contribute towards a sustainable future. For more information, please refer to the help page.</string>
-                                <fontDescription key="fontDescription" type="italicSystem" pointSize="20"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="VOLUNTEER" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TSv-Uq-ODR">
                                 <rect key="frame" x="127" y="44" width="184" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gwg-Nu-wHw">
+                                <rect key="frame" x="44" y="413" width="326" height="309"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">“Volunteers are not paid because they are useless, but because they are priceless”. At SERS, we appreciate your efforts to help achieve a sustainable future. We encourage volunteers of ages 15-21 to come forward to contribute towards a sustainable future. For more information, please refer to the help page.</string>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -2063,23 +2063,23 @@
         <image name="Email" width="285" height="69"/>
         <image name="LoginGradient" width="1242" height="2688"/>
         <image name="Screen Shot 2019-11-11 at 10.45.16 AM" width="62" height="40"/>
-        <image name="VolunteeringIcon" width="846" height="849"/>
         <image name="dewa" width="600" height="260"/>
         <image name="images" width="259" height="195"/>
         <image name="login" width="285" height="69"/>
         <image name="login-1" width="285" height="69"/>
         <image name="silver-card" width="154.66667175292969" height="101"/>
         <image name="user-member-social-net-avatar-profile-icon-vector-22965341" width="238" height="250"/>
+        <image name="volunteer" width="800" height="400"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="tv9-6j-nG3"/>
+        <segue reference="6Of-C5-syG"/>
         <segue reference="hfU-jQ-cRD"/>
         <segue reference="KlU-Ld-Bqy"/>
-        <segue reference="hbF-dI-DVG"/>
-        <segue reference="Yl8-8v-YtJ"/>
+        <segue reference="rrh-WK-HTp"/>
+        <segue reference="xHt-sW-kwF"/>
         <segue reference="q3q-93-Zra"/>
         <segue reference="hWt-il-EKB"/>
-        <segue reference="KWK-KP-Sp6"/>
+        <segue reference="UVE-86-tkV"/>
         <segue reference="ci0-fn-RYQ"/>
         <segue reference="3He-g6-D3y"/>
     </inferredMetricsTieBreakers>
