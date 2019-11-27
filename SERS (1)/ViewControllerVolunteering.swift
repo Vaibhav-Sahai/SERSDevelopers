@@ -34,4 +34,14 @@ class ViewControllerVolunteering: UIViewController {
     @IBAction func NoorButton(_ sender: Any) {
         UIApplication.shared.open(URL(string:"https://alnoorspneeds.ae/volunteer-with-us/")! as URL, options: [:], completionHandler: nil)
     }
+    @IBAction func SmartlifeButton(_ sender: Any) {
+        UIApplication.shared.open(URL(string:"http://smartlifefoundation.org/smartlife/#get-in-touch")! as URL, options: [:], completionHandler: nil)
+        
+    }
+    @IBAction func MakeAWishButton(_ sender: Any) {
+        UIApplication.shared.open(URL(string:"http://www.makeawish.ae/page/Application-Form.html")! as URL, options: [:], completionHandler: nil)
+    }
+    @IBAction func EEGButton(_ sender: Any) {
+        UIApplication.shared.open(URL(string:"https://www.eeg-uae.org/become-a-member/")! as URL, options: [:], completionHandler: nil)
+    }
 }
