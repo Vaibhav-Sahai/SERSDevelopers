@@ -31,4 +31,7 @@ class ViewControllerVolunteering: UIViewController {
         UIApplication.shared.open(URL(string:"https://www.expo2020dubai.com/en/programmes/volunteers")! as URL, options: [:], completionHandler: nil)
         
     }
+    @IBAction func NoorButton(_ sender: Any) {
+        UIApplication.shared.open(URL(string:"https://alnoorspneeds.ae/volunteer-with-us/")! as URL, options: [:], completionHandler: nil)
+    }
 }
