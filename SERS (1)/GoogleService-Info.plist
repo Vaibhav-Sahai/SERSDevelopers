@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>70242721523-2g7ufmcn3hnqmb4o3ngleou4v3e4nbbe.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.70242721523-2g7ufmcn3hnqmb4o3ngleou4v3e4nbbe</string>
+	<key>API_KEY</key>
+	<string>AIzaSyACbDhPwSyBeS_tdEu9G6E2QPwLh0f6Hh8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>70242721523</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Trial.SERS--1-</string>
+	<key>PROJECT_ID</key>
+	<string>sers-c1752</string>
+	<key>STORAGE_BUCKET</key>
+	<string>sers-c1752.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:70242721523:ios:8c834cead9e0e9ed4d6186</string>
+	<key>DATABASE_URL</key>
+	<string>https://sers-c1752.firebaseio.com</string>
+</dict>
+</plist>

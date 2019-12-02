@@ -1,0 +1,6 @@
+framework module Pods_SERS__1_ {
+  umbrella header "Pods-SERS (1)-umbrella.h"
+
+  export *
+  module * { export * }
+}

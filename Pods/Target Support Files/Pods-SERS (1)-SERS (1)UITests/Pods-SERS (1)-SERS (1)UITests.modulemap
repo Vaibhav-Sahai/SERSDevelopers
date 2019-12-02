@@ -1,0 +1,6 @@
+framework module Pods_SERS__1__SERS__1_UITests {
+  umbrella header "Pods-SERS (1)-SERS (1)UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
