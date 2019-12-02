@@ -414,7 +414,7 @@
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mbz-YE-KVU">
                                                 <rect key="frame" x="0.0" y="88" width="414" height="773"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">FAQS
+                                                <mutableString key="text">FAQS
 Q1) Is my DEWA bill automatically connected to the app? Or do I need to upload the bill?
 A1) When you register with your account, your dewa account details are automatically taken by the app via the registration page. Your monthly and annual bills are automatically present in the app from the moment you log in.
 
@@ -422,14 +422,14 @@ Q2) What are S-Points?
 A2) S-Points are our unique way of rewarding you, the user, for reducing your carbon footprint. These points can be used to buy gifts from the gifts sections.
 
 Q3) How does one get S-Points?
-A3) S-Points are automatically given by our app if you reduce your energy consumption OR water consumption OR increase NoL card usage. For every 10KwH reduction in energy consumption, you gain 1 points. For every 10 gallon reduction, you get 0.5 points. For every 10 NoL card uses, you get 1 point.
+A3) S-Points are automatically given by our app if you reduce your energy consumption OR water consumption OR increase NoL card usage. For every 10KwH reduction in energy consumption, you gain 1 points. For every 10 gallon reduction, you get 0.5 points. For every 2 NoL card uses, you get 1 point.
 
 Q4) How do I redeem my S-Points?
 A4) From the home screen, head on over to the “Gifts” section and choose any voucher or gift card of you liking. If you have sufficient funds, the app will automatically generate your redeemable code within an instant.
 
 Q5) I can't find my question listed here. What should i do?
 A5) Please head on over to our site (www.sers.gov/help) and we will connect you to our representative who would help you in resolving any problems/questions.
-</string>
+</mutableString>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -585,7 +585,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BackgroundInfogradient" translatesAutoresizingMaskIntoConstraints="NO" id="LKK-qb-XHK">
-                                <rect key="frame" x="0.0" y="6" width="414" height="890"/>
+                                <rect key="frame" x="0.0" y="60" width="414" height="890"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOL CARD" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WZz-1u-hbz">
@@ -657,6 +657,62 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                                 <rect key="frame" x="38" y="105" width="338" height="180"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Most Frequently Visited Destination:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y2f-o7-7Cl">
+                                <rect key="frame" x="50" y="493" width="314" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Burjuman Metro Station" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cfO-w6-z1G">
+                                <rect key="frame" x="103" y="525" width="205" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Average Number Of Trips Per Day:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fZb-Pa-aNA">
+                                <rect key="frame" x="59" y="619" width="296" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="szp-ek-FVv">
+                                <rect key="frame" x="171" y="651" width="73" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="S-Points Gained From Using Your NoL Card:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xKe-Jk-dfb">
+                                <rect key="frame" x="16" y="725" width="382" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YQz-4p-DT1">
+                                <rect key="frame" x="194" y="757" width="22" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NoL Card Type: Silver" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UON-iR-eTs">
+                                <rect key="frame" x="117" y="336" width="187" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Total Number Of Trips Taken In December: 20" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cpj-K8-1BW">
+                                <rect key="frame" x="11" y="411" width="393" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.96078431372549022" green="0.94901960784313721" blue="0.88235294117647056" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="Uec-qc-H7n"/>
@@ -1129,7 +1185,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
+                                <color key="highlightedColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="13X-Z7-lkQ">
                                 <rect key="frame" x="266" y="851" width="147" height="44"/>
@@ -1228,11 +1284,11 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                                     <segue destination="JV8-HC-7K7" kind="show" id="IXf-iE-beZ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j9y-Pc-2VC">
-                                <rect key="frame" x="11" y="115" width="346" height="227"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HUj-xs-4us">
+                                <rect key="frame" x="37" y="112" width="346" height="213"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="nzg-8v-UFN" kind="show" id="4vv-Nb-Yc3"/>
+                                    <segue destination="MrD-WG-Aw2" kind="show" id="TwX-uj-fk3"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qgx-cX-kUd">
@@ -1244,13 +1300,14 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ceL-Ch-TOJ">
-                                <rect key="frame" x="387" y="68" width="27" height="20"/>
+                                <rect key="frame" x="348" y="44" width="65" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <gestureRecognizers/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <state key="normal" image="user-member-social-net-avatar-profile-icon-vector-22965341">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal" title="Logout">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -1275,11 +1332,11 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                                     <outletCollection property="gestureRecognizers" destination="96L-vv-uKE" appends="YES" id="en3-aH-s3o"/>
                                 </connections>
                             </toolbar>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HUj-xs-4us">
-                                <rect key="frame" x="35" y="350" width="346" height="213"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j9y-Pc-2VC">
+                                <rect key="frame" x="28" y="350" width="346" height="227"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="MrD-WG-Aw2" kind="show" id="TwX-uj-fk3"/>
+                                    <segue destination="nzg-8v-UFN" kind="show" id="4vv-Nb-Yc3"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2157,15 +2214,6 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                                 </items>
                                 <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </toolbar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZjO-Ai-vs0">
-                                <rect key="frame" x="20" y="218" width="374" height="243"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet pharetra turpis in commodo. Aenean vitae lorem risus. Etiam arcu dui, pellentesque id dictum id, porta maximus neque. Ut viverra sem est. Maecenas eu consequat augue. Integer faucibus vitae erat in gravida. Morbi eget dui id orci vehicula iaculis. In nec quam mauris. In ullamcorper elit eu sem pellentesque, nec bibendum ligula vulputate
-</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOL CARD" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PKL-Qv-FMI">
                                 <rect key="frame" x="0.0" y="24" width="414" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2184,6 +2232,15 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                                     <segue destination="gYP-UR-ovI" kind="show" id="vpE-Iw-sa2"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9M9-WJ-vad">
+                                <rect key="frame" x="20" y="196" width="374" height="577"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">1/12/19 Travelled To Dubai Internet City Via Metro (5 AED Fare) Travelled To Burjuman Via Bus (5 AED Fare)  2/12/19 Travelled To Mall Of Emirates Via Metro (5 AED Fare) Travelled To Palm Jumeira Via Tram (5 AED Fare) Travelled To Burjuman Via Metro (5 AED Fare)  3/12/19 Travelled To Dubai Internet City Via Metro (5 AED Fare) Travelled To Burjuman Via Dubai Taxi (55 AED Fare)  4/12/19 Travelled To Burj Khalifa/Dubai Mall Via Metro (5 AED Fare) Travelled To Ibn Batutta Via Metro (5 AED Fare) Travelled To Burjuman Via Metro (5 AED Fare)  5/12/19 Travelled To Sharaf DG Via Taxi (50 AED Fare) Travelled To Burjuman Via Taxi (50 AED Fare)  6/12/19 (No Recorded Trips)  7/12/19 Travelled To Dubai Internet City Via Metro (5 AED Fare) Travelled To Burjuman Via Metro (5 AED Fare)</mutableString>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="WmM-Kk-O2X"/>
@@ -2192,7 +2249,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ve9-mK-hV4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3512" y="127"/>
+            <point key="canvasLocation" x="3511.594202898551" y="126.5625"/>
         </scene>
         <!--View Controller Volunteering-->
         <scene sceneID="2wl-2d-9sH">
@@ -2312,7 +2369,6 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
         <image name="login" width="285" height="69"/>
         <image name="login-1" width="285" height="69"/>
         <image name="thankyou" width="803" height="800"/>
-        <image name="user-member-social-net-avatar-profile-icon-vector-22965341" width="238" height="250"/>
         <image name="volunteer" width="800" height="400"/>
     </resources>
     <inferredMetricsTieBreakers>
@@ -2323,13 +2379,13 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
         <segue reference="hfU-jQ-cRD"/>
         <segue reference="Zq6-98-Nnu"/>
         <segue reference="rrh-WK-HTp"/>
-        <segue reference="3CF-15-6ar"/>
+        <segue reference="29k-pv-kQd"/>
         <segue reference="qbL-dc-gvK"/>
         <segue reference="q3q-93-Zra"/>
         <segue reference="37P-Da-pVw"/>
-        <segue reference="gIw-42-3g2"/>
+        <segue reference="vpE-Iw-sa2"/>
         <segue reference="UVE-86-tkV"/>
         <segue reference="ci0-fn-RYQ"/>
-        <segue reference="3He-g6-D3y"/>
+        <segue reference="12k-hq-J1N"/>
     </inferredMetricsTieBreakers>
 </document>
