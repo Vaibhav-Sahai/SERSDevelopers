@@ -12,7 +12,7 @@
             <objects>
                 <viewController title="Login controller" id="MiR-no-IZ5" customClass="LoginController" customModule="SERS_Prototype" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="b4F-DH-JYG">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LoginGradient" translatesAutoresizingMaskIntoConstraints="NO" id="8dM-1c-QD0" userLabel="BackgroundImage">
@@ -26,13 +26,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vaQ-zT-GWq">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vaQ-zT-GWq" userLabel="Email Field">
                                 <rect key="frame" x="29" y="416" width="357" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n6v-iO-LMH">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n6v-iO-LMH">
                                 <rect key="frame" x="37" y="367" width="106" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -71,10 +71,9 @@
                                     <action selector="LoginButtonTapped:" destination="MiR-no-IZ5" eventType="touchUpInside" id="VLb-9g-bHH"/>
                                     <outletCollection property="gestureRecognizers" destination="NZe-lJ-G3u" appends="YES" id="2kx-sX-Vh4"/>
                                     <outletCollection property="gestureRecognizers" destination="NZe-lJ-G3u" appends="YES" id="Wsj-OS-ehq"/>
-                                    <segue destination="Yp9-Q6-Wz3" kind="show" id="tjA-ZO-g2d"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Error: Username/Password Invalid" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QFP-4V-T0V">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Error: Username/Password Invalid" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QFP-4V-T0V">
                                 <rect key="frame" x="29" y="677" width="357" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
@@ -91,10 +90,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="10I-zd-eHx"/>
                     <connections>
-                        <outlet property="ErrorLabel" destination="b4F-DH-JYG" id="jVw-2w-QGw"/>
+                        <outlet property="EmailField" destination="vaQ-zT-GWq" id="4Bg-Ic-oWk"/>
+                        <outlet property="ErrorLabel" destination="QFP-4V-T0V" id="0cr-qE-qjo"/>
                         <outlet property="LoginButton" destination="b4F-DH-JYG" id="tww-bi-2ZM"/>
                         <outlet property="PasswordField" destination="GVE-Yc-4Dj" id="lgY-y1-IXF"/>
-                        <outlet property="UsernameField" destination="vaQ-zT-GWq" id="YlY-n2-eWu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YS0-DG-yAw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -173,14 +172,14 @@
             <objects>
                 <viewController id="BYZ-38-t0r" userLabel="WelcomePage" customClass="ViewController" customModule="SERS_Prototype" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LoginGradient" translatesAutoresizingMaskIntoConstraints="NO" id="uQS-6d-chk">
-                                <rect key="frame" x="0.0" y="-44" width="414" height="984"/>
+                                <rect key="frame" x="0.0" y="-88" width="414" height="1018"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZPU-tC-l9o" userLabel="RegisterButton">
-                                <rect key="frame" x="64.666666666666686" y="502.66666666666674" width="285" height="69"/>
+                                <rect key="frame" x="64.666666666666686" y="475.66666666666669" width="285" height="69.000000000000057"/>
                                 <gestureRecognizers/>
                                 <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="Register A New Account" backgroundImage="Email">
@@ -192,19 +191,19 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login Or Register" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jBT-qF-UNu" userLabel="IntroButton">
-                                <rect key="frame" x="140.66666666666666" y="362.66666666666669" width="132.99999999999997" height="21"/>
+                                <rect key="frame" x="140.66666666666666" y="335.66666666666669" width="132.99999999999997" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome To S.E.R.S" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rAA-Zf-AEx">
-                                <rect key="frame" x="75.666666666666686" y="280.66666666666669" width="263" height="42"/>
+                                <rect key="frame" x="75.666666666666686" y="253.66666666666663" width="263" height="42"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="edq-lU-5R8" userLabel="LoginButton">
-                                <rect key="frame" x="65" y="416" width="284" height="64"/>
+                                <rect key="frame" x="65" y="389" width="284" height="64"/>
                                 <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="Q5S-Nr-ipk"/>
@@ -250,7 +249,7 @@
             <objects>
                 <viewController id="5ZS-EH-9v5" userLabel="RegisterPage" customClass="RegisterController" customModule="SERS_Prototype" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XXb-JP-7sq">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LoginGradient" translatesAutoresizingMaskIntoConstraints="NO" id="f47-sT-z5M">
@@ -333,7 +332,6 @@
                                 </state>
                                 <connections>
                                     <action selector="RegisterButtonPressed:" destination="5ZS-EH-9v5" eventType="touchUpInside" id="fbI-pa-yGs"/>
-                                    <segue destination="Yp9-Q6-Wz3" kind="show" id="qGR-X9-G3g"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enter DEWA Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y2f-kA-8GE">
@@ -388,7 +386,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Error: Please Fix Fields" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dlE-Q1-9lh">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Error: Please Fix Fields" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dlE-Q1-9lh">
                                 <rect key="frame" x="37" y="758" width="334" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
@@ -419,14 +417,14 @@
             <objects>
                 <viewController id="PB0-yZ-zaJ" userLabel="Help Controller" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IdH-OQ-6eM">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="946"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qEp-z3-uHf">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                <rect key="frame" x="0.0" y="-44" width="414" height="990"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6p9-i0-55s">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="990"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BackgroundInfogradient" translatesAutoresizingMaskIntoConstraints="NO" id="dKH-bJ-7eC">
                                                 <rect key="frame" x="-21" y="66" width="457" height="869"/>
@@ -475,7 +473,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                                         <color key="backgroundColor" red="0.96078431372549022" green="0.94901960784313721" blue="0.88235294117647056" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
                                     <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d7g-mK-ArS">
-                                        <rect key="frame" x="0.0" y="990" width="141" height="44"/>
+                                        <rect key="frame" x="0.0" y="980" width="141" height="44"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                         <color key="backgroundColor" red="0.0" green="0.065624863759999999" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <items>
@@ -489,7 +487,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                                         <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </toolbar>
                                     <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jKV-ok-sTH">
-                                        <rect key="frame" x="141" y="990" width="145" height="44"/>
+                                        <rect key="frame" x="141" y="980" width="145" height="44"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                         <color key="backgroundColor" red="0.0" green="0.065624863759999999" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <items>
@@ -503,7 +501,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                                         <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </toolbar>
                                     <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qNd-il-jAI">
-                                        <rect key="frame" x="286" y="990" width="128" height="44"/>
+                                        <rect key="frame" x="286" y="980" width="128" height="44"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <items>
@@ -547,7 +545,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
             <objects>
                 <viewController id="nzg-8v-UFN" userLabel="NoLCardInfo" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jST-BV-iKc">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BackgroundInfogradient" translatesAutoresizingMaskIntoConstraints="NO" id="hHq-nD-DWE">
@@ -1033,7 +1031,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
             <objects>
                 <viewController id="hhH-cE-EaO" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0JP-KS-frI">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BackgroundInfogradient" translatesAutoresizingMaskIntoConstraints="NO" id="asl-qq-jks">
@@ -1199,9 +1197,9 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
         <!--HomePage-->
         <scene sceneID="JEG-Wf-fRr">
             <objects>
-                <viewController id="Yp9-Q6-Wz3" userLabel="HomePage" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeVC" id="Yp9-Q6-Wz3" userLabel="HomePage" customClass="HomeViewController" customModule="SERS_Prototype" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="crD-0g-rV8">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BackgroundInfogradient" translatesAutoresizingMaskIntoConstraints="NO" id="7TF-RH-Mod">
@@ -1217,7 +1215,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                                 <color key="highlightedColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="13X-Z7-lkQ">
-                                <rect key="frame" x="266" y="851" width="147" height="44"/>
+                                <rect key="frame" x="266" y="797" width="147" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <gestureRecognizers/>
@@ -1236,7 +1234,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                                 </connections>
                             </toolbar>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KD4-Kt-QJR">
-                                <rect key="frame" x="0.0" y="851" width="147" height="44"/>
+                                <rect key="frame" x="0.0" y="797" width="147" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <gestureRecognizers/>
@@ -1346,7 +1344,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                                 </connections>
                             </button>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Oy-L0-D2F">
-                                <rect key="frame" x="147" y="851" width="135" height="44"/>
+                                <rect key="frame" x="147" y="797" width="135" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <gestureRecognizers/>
@@ -1387,7 +1385,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
             <objects>
                 <viewController id="o05-fN-AI3" userLabel="Gifts" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2dn-2v-ouH">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BackgroundInfogradient" translatesAutoresizingMaskIntoConstraints="NO" id="uZa-Th-fxf">
@@ -1431,7 +1429,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                                 <nil key="highlightedColor"/>
                             </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rR1-Eq-Rou">
-                                <rect key="frame" x="0.0" y="852" width="156" height="44"/>
+                                <rect key="frame" x="0.0" y="798" width="156" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <gestureRecognizers/>
@@ -1449,7 +1447,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                                 </connections>
                             </toolbar>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rhW-NQ-kov">
-                                <rect key="frame" x="156" y="852" width="127" height="44"/>
+                                <rect key="frame" x="156" y="798" width="127" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <gestureRecognizers/>
@@ -1467,7 +1465,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                                 </connections>
                             </toolbar>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gMF-HK-ASp">
-                                <rect key="frame" x="283" y="852" width="131" height="44"/>
+                                <rect key="frame" x="283" y="798" width="131" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <gestureRecognizers/>
@@ -1512,7 +1510,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
             <objects>
                 <viewController id="JV8-HC-7K7" userLabel="VolunteeringInfo" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4Sq-Dk-WyY">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BackgroundInfogradient" translatesAutoresizingMaskIntoConstraints="NO" id="zRg-ar-CFi">
@@ -1680,7 +1678,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
             <objects>
                 <viewController id="g7y-yN-zWX" userLabel="Contact" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ABx-nI-KrI">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BackgroundInfogradient" translatesAutoresizingMaskIntoConstraints="NO" id="zER-qk-SlV">
@@ -1743,7 +1741,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cnJ-ox-vHE">
-                                <rect key="frame" x="0.0" y="852" width="135" height="44"/>
+                                <rect key="frame" x="0.0" y="798" width="135" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <gestureRecognizers/>
@@ -1761,7 +1759,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                                 </connections>
                             </toolbar>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vpa-Xr-b7c">
-                                <rect key="frame" x="135" y="852" width="147" height="44"/>
+                                <rect key="frame" x="135" y="798" width="147" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <gestureRecognizers/>
@@ -1779,7 +1777,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                                 </connections>
                             </toolbar>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uKa-ME-2cT">
-                                <rect key="frame" x="282" y="852" width="132" height="44"/>
+                                <rect key="frame" x="282" y="798" width="132" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <gestureRecognizers/>
@@ -2037,7 +2035,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
             <objects>
                 <viewController interfaceStyle="light" id="MrD-WG-Aw2" userLabel="DEWABillInfo" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aDD-lg-SgM">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BackgroundInfogradient" translatesAutoresizingMaskIntoConstraints="NO" id="Uga-YZ-FlO">
@@ -2103,7 +2101,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
             <objects>
                 <viewController id="r00-VT-ZIl" userLabel="Cart" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rHW-a4-3Mj">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BackgroundInfogradient" translatesAutoresizingMaskIntoConstraints="NO" id="oef-Wz-Iu1">
@@ -2406,9 +2404,9 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
         <segue reference="6Of-C5-syG"/>
         <segue reference="HOJ-aZ-PYc"/>
         <segue reference="hfU-jQ-cRD"/>
-        <segue reference="Zq6-98-Nnu"/>
+        <segue reference="HN8-RN-sVq"/>
         <segue reference="rrh-WK-HTp"/>
-        <segue reference="tjA-ZO-g2d"/>
+        <segue reference="HTX-LG-53S"/>
         <segue reference="qbL-dc-gvK"/>
         <segue reference="q3q-93-Zra"/>
         <segue reference="37P-Da-pVw"/>

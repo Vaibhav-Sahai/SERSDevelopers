@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import FirebaseAuth
+import Firebase
 
 class RegisterController: UIViewController {
     
@@ -35,7 +37,8 @@ class RegisterController: UIViewController {
     ///Check the fields and validate
     func validateFields() -> String? {
         if EmailBox.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||
-            PasswordBox.text?.trimmingCharacters(in: .whitespaces) == ""
+            PasswordBox.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||
+            UsernameBox.text?.trimmingCharacters(in: .whitespacesAndNewlines) == ""
         {
             return "Please fill all boxes"
         }
@@ -51,9 +54,30 @@ class RegisterController: UIViewController {
             showError(error!)
         }
         else {
+            let username = UsernameBox.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+            let email = EmailBox.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+            let password = PasswordBox.text!.trimmingCharacters(in: .whitespacesAndNewlines)
             ///Create the user
+            Auth.auth().createUser(withEmail: email, password: password) { (result, err) in
+                ///Check for error
+                if err != nil {
+                    ///There was an error
+                    self.showError("Error Creating User")
+                }
+                else{
+                    let db = Firestore.firestore()
+                    
+                    db.collection("users").addDocument(data: ["Username":username, "uid": result!.user.uid]) { (error) in
+                        if error != nil{
+                            self.showError("Big Oof")
+                        }
+                    }
+                    ///Transition to the homescreen
+                    self.transitionToHome()
+                }
+    
+            }
             
-            ///Transition to the homescreen
             
             
         }
@@ -64,5 +88,10 @@ class RegisterController: UIViewController {
         ErrorLabel.alpha == 1
     }
         
-    
+    func transitionToHome() {
+        let homeViewController = storyboard?.instantiateViewController(identifier: Constants.Storyboard.homeViewController) as? HomeViewController
+        
+        view.window?.rootViewController = homeViewController
+        view.window?.makeKeyAndVisible()
+    }
 }

@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		4B5453AA4CD958DCCB7417E9 /* Pods_SERS__1_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F789BD76010A688FC0C7AD /* Pods_SERS__1_Tests.framework */; };
 		511B182B19E453545A13C966 /* Pods_SERS__1__SERS__1_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FDCEF56C8B23747B63BFA0A /* Pods_SERS__1__SERS__1_UITests.framework */; };
+		80094A592395A41D009BA0C5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80094A582395A41D009BA0C5 /* Constants.swift */; };
+		8023B0F02395A810005E0C47 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80094A582395A41D009BA0C5 /* Constants.swift */; };
+		8023B0F32395AAEE005E0C47 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8023B0F22395AAEE005E0C47 /* HomeViewController.swift */; };
 		8059D8F82395840800291D32 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8059D8F72395840800291D32 /* GoogleService-Info.plist */; };
 		807C7A3B2395955700D27AD3 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807C7A3A2395955700D27AD3 /* RegisterController.swift */; };
 		80928475238D89C800653B55 /* ViewControllerVolunteering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80928474238D89C800653B55 /* ViewControllerVolunteering.swift */; };
@@ -45,6 +48,8 @@
 		56D35E8DDB3D0918B13E0B62 /* Pods-SERS (1)-SERS (1)UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SERS (1)-SERS (1)UITests.debug.xcconfig"; path = "Target Support Files/Pods-SERS (1)-SERS (1)UITests/Pods-SERS (1)-SERS (1)UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6AB832D2683AA449C8DDC3F9 /* Pods-SERS (1)-SERS (1)UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SERS (1)-SERS (1)UITests.release.xcconfig"; path = "Target Support Files/Pods-SERS (1)-SERS (1)UITests/Pods-SERS (1)-SERS (1)UITests.release.xcconfig"; sourceTree = "<group>"; };
 		7FDCEF56C8B23747B63BFA0A /* Pods_SERS__1__SERS__1_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SERS__1__SERS__1_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80094A582395A41D009BA0C5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8023B0F22395AAEE005E0C47 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		8059D8F72395840800291D32 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		807C7A3A2395955700D27AD3 /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
 		80928474238D89C800653B55 /* ViewControllerVolunteering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerVolunteering.swift; sourceTree = "<group>"; };
@@ -150,9 +155,11 @@
 				80FC965C23735B6300BBFF55 /* AppDelegate.swift */,
 				80FC965E23735B6300BBFF55 /* SceneDelegate.swift */,
 				EFBA0EE2238264F500897AD0 /* ViewController.swift */,
+				80094A582395A41D009BA0C5 /* Constants.swift */,
 				EFBA0EE42382651600897AD0 /* LoginController.swift */,
 				807C7A3A2395955700D27AD3 /* RegisterController.swift */,
 				80928474238D89C800653B55 /* ViewControllerVolunteering.swift */,
+				8023B0F22395AAEE005E0C47 /* HomeViewController.swift */,
 				80FC966723735B6400BBFF55 /* LaunchScreen.storyboard */,
 				EF606506238D284200E2DECA /* Main.storyboard */,
 				EF606508238D286F00E2DECA /* Assets.xcassets */,
@@ -423,7 +430,9 @@
 				EFBA0EE3238264F500897AD0 /* ViewController.swift in Sources */,
 				EFBA0EE52382651600897AD0 /* LoginController.swift in Sources */,
 				807C7A3B2395955700D27AD3 /* RegisterController.swift in Sources */,
+				8023B0F32395AAEE005E0C47 /* HomeViewController.swift in Sources */,
 				80928475238D89C800653B55 /* ViewControllerVolunteering.swift in Sources */,
+				80094A592395A41D009BA0C5 /* Constants.swift in Sources */,
 				80FC965D23735B6300BBFF55 /* AppDelegate.swift in Sources */,
 				80FC965F23735B6300BBFF55 /* SceneDelegate.swift in Sources */,
 			);
@@ -434,6 +443,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80FC967423735B6500BBFF55 /* SERS__1_Tests.swift in Sources */,
+				8023B0F02395A810005E0C47 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
