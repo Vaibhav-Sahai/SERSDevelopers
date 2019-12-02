@@ -68,6 +68,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="LoginButtonTapped:" destination="MiR-no-IZ5" eventType="touchUpInside" id="VLb-9g-bHH"/>
                                     <outletCollection property="gestureRecognizers" destination="NZe-lJ-G3u" appends="YES" id="2kx-sX-Vh4"/>
                                     <outletCollection property="gestureRecognizers" destination="NZe-lJ-G3u" appends="YES" id="Wsj-OS-ehq"/>
                                     <segue destination="Yp9-Q6-Wz3" kind="show" id="tjA-ZO-g2d"/>
@@ -89,6 +90,12 @@
                         </connections>
                     </view>
                     <navigationItem key="navigationItem" id="10I-zd-eHx"/>
+                    <connections>
+                        <outlet property="ErrorLabel" destination="b4F-DH-JYG" id="jVw-2w-QGw"/>
+                        <outlet property="LoginButton" destination="b4F-DH-JYG" id="tww-bi-2ZM"/>
+                        <outlet property="PasswordField" destination="GVE-Yc-4Dj" id="lgY-y1-IXF"/>
+                        <outlet property="UsernameField" destination="vaQ-zT-GWq" id="YlY-n2-eWu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YS0-DG-yAw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="NZe-lJ-G3u"/>
