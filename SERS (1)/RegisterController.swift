@@ -19,24 +19,50 @@ class RegisterController: UIViewController {
     
     @IBOutlet weak var RegisterButton: UIButton!
     
+    @IBOutlet weak var ErrorLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        setupelements()
+    }
+    func setupelements() {
+        ErrorLabel.alpha = 0
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    ///Check the fields and validate
+    func validateFields() -> String? {
+        if EmailBox.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||
+            PasswordBox.text?.trimmingCharacters(in: .whitespaces) == ""
+        {
+            return "Please fill all boxes"
+        }
+        
+        
+        return nil
     }
-    */
     
     @IBAction func RegisterButtonPressed(_ sender: Any) {
+        ///Validate the fields
+        let error = validateFields()
+        if error != nil{
+            showError(error!)
+        }
+        else {
+            ///Create the user
+            
+            ///Transition to the homescreen
+            
+            
+        }
+
     }
+    func showError(_ message:String){
+        ErrorLabel.text == message
+        ErrorLabel.alpha == 1
+    }
+        
     
 }

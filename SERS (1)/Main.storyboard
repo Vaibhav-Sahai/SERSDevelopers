@@ -333,7 +333,7 @@
                                 </state>
                                 <connections>
                                     <action selector="RegisterButtonPressed:" destination="5ZS-EH-9v5" eventType="touchUpInside" id="fbI-pa-yGs"/>
-                                    <segue destination="MiR-no-IZ5" kind="show" id="12k-hq-J1N"/>
+                                    <segue destination="Yp9-Q6-Wz3" kind="show" id="qGR-X9-G3g"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enter DEWA Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y2f-kA-8GE">
@@ -388,6 +388,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Error: Please Fix Fields" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dlE-Q1-9lh">
+                                <rect key="frame" x="37" y="758" width="334" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Xzf-xA-GAk"/>
@@ -396,6 +403,7 @@
                     <nil key="simulatedTopBarMetrics"/>
                     <connections>
                         <outlet property="EmailBox" destination="y3U-Cb-zN8" id="E5h-pN-z8Y"/>
+                        <outlet property="ErrorLabel" destination="dlE-Q1-9lh" id="yIn-my-RXn"/>
                         <outlet property="PasswordBox" destination="Piz-r9-JgT" id="cXt-7d-i4y"/>
                         <outlet property="RegisterButton" destination="til-dI-pyP" id="g0o-JI-beh"/>
                         <outlet property="UsernameBox" destination="rHI-Bh-hTk" id="tLY-YA-YiU"/>
@@ -2407,6 +2415,5 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
         <segue reference="vpE-Iw-sa2"/>
         <segue reference="UVE-86-tkV"/>
         <segue reference="ci0-fn-RYQ"/>
-        <segue reference="12k-hq-J1N"/>
     </inferredMetricsTieBreakers>
 </document>
