@@ -83,7 +83,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Il6-3I-Ra4">
                                 <rect key="frame" x="10" y="44" width="40" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="Back"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="Cn1-xn-xZE"/>
                                 </connections>
@@ -137,14 +139,8 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login Or Register" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jBT-qF-UNu" userLabel="IntroButton">
-                                <rect key="frame" x="140.66666666666666" y="362.66666666666669" width="132.99999999999997" height="21"/>
+                                <rect key="frame" x="140.66666666666669" y="362.66666666666669" width="132.66666666666669" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome To S.E.R.S" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rAA-Zf-AEx">
-                                <rect key="frame" x="75.666666666666686" y="280.66666666666669" width="263" height="42"/>
-                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -163,21 +159,30 @@
                                     <segue destination="MiR-no-IZ5" kind="show" id="3He-g6-D3y"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome To Sustainable Energy Rewards System (SERS)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rAA-Zf-AEx">
+                                <rect key="frame" x="20" y="155" width="374" height="127.33333333333331"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="rAA-Zf-AEx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="2qD-1H-V6c"/>
                             <constraint firstItem="uQS-6d-chk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="3vb-Ky-hUg"/>
                             <constraint firstItem="uQS-6d-chk" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-88" id="7Ra-SA-Raq"/>
-                            <constraint firstItem="edq-lU-5R8" firstAttribute="top" secondItem="jBT-qF-UNu" secondAttribute="bottom" constant="32.333333333333314" id="8fI-wB-tg5"/>
+                            <constraint firstItem="jBT-qF-UNu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="140.66666666666663" id="9yC-eT-EBP"/>
                             <constraint firstItem="jBT-qF-UNu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BhU-jq-Mnb"/>
                             <constraint firstItem="edq-lU-5R8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="65" id="EzV-SI-bR4"/>
                             <constraint firstItem="uQS-6d-chk" firstAttribute="centerY" secondItem="edq-lU-5R8" secondAttribute="centerY" id="JCM-Lu-cpF"/>
-                            <constraint firstItem="jBT-qF-UNu" firstAttribute="top" secondItem="rAA-Zf-AEx" secondAttribute="bottom" constant="40" id="P7D-WN-6fj"/>
                             <constraint firstItem="edq-lU-5R8" firstAttribute="centerX" secondItem="jBT-qF-UNu" secondAttribute="centerX" id="axR-1a-Kmz"/>
                             <constraint firstItem="edq-lU-5R8" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gab-wZ-2nv"/>
                             <constraint firstItem="ZPU-tC-l9o" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="is5-IQ-fok"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rAA-Zf-AEx" secondAttribute="trailing" constant="20" id="lnE-V9-XFQ"/>
+                            <constraint firstItem="edq-lU-5R8" firstAttribute="top" secondItem="jBT-qF-UNu" secondAttribute="bottom" constant="32.333333333333314" id="mI3-PC-rU6"/>
                             <constraint firstItem="ZPU-tC-l9o" firstAttribute="top" secondItem="edq-lU-5R8" secondAttribute="bottom" constant="22.666666666666742" id="sEV-hm-PKB"/>
                             <constraint firstItem="uQS-6d-chk" firstAttribute="centerX" secondItem="rAA-Zf-AEx" secondAttribute="centerX" id="tQO-un-YHs"/>
+                            <constraint firstItem="rAA-Zf-AEx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="111" id="tlC-6h-wUz"/>
                             <constraint firstItem="rAA-Zf-AEx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="x1W-7b-SfZ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -188,7 +193,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="zvX-IJ-Jg6"/>
             </objects>
-            <point key="canvasLocation" x="-620" y="127"/>
+            <point key="canvasLocation" x="-620.28985507246387" y="126.5625"/>
         </scene>
         <!--RegisterPage-->
         <scene sceneID="QSq-Jp-Amt">
@@ -342,7 +347,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lN8-9N-JhE">
                                 <rect key="frame" x="10" y="44" width="40" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="Back"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="2YK-uQ-htO"/>
                                 </connections>
@@ -522,7 +529,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="27" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L6e-tk-la4">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="27" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L6e-tk-la4">
                                 <rect key="frame" x="41" y="432" width="333" height="317"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1506,7 +1513,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gwg-Nu-wHw">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gwg-Nu-wHw">
                                 <rect key="frame" x="44" y="413" width="326" height="309"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2027,7 +2034,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3FG-Kr-GKG">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3FG-Kr-GKG">
                                 <rect key="frame" x="38" y="400" width="338" height="377"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">This app successfully integrates your DEWA monthly bill with a well organized point system which rewards you for using less energy and water. These points (called S-Points) also depend on various other features including but not limited to numbers of room, area where the house is situated etc. S-Points can then be used to get vouchers and gifts from our shop. For more information, please refer to the help page.</string>
@@ -2383,10 +2390,10 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
         <segue reference="hfU-jQ-cRD"/>
         <segue reference="HN8-RN-sVq"/>
         <segue reference="7iB-Sh-coP"/>
-        <segue reference="r3g-oF-tOP"/>
+        <segue reference="xHt-sW-kwF"/>
         <segue reference="qbL-dc-gvK"/>
         <segue reference="q3q-93-Zra"/>
-        <segue reference="FkN-JC-929"/>
+        <segue reference="XJC-6g-bhY"/>
         <segue reference="gIw-42-3g2"/>
         <segue reference="UVE-86-tkV"/>
         <segue reference="Cn1-xn-xZE"/>
