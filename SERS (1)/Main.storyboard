@@ -10,7 +10,7 @@
         <!--Login controller-->
         <scene sceneID="Jeu-Ss-o1q">
             <objects>
-                <viewController title="Login controller" id="MiR-no-IZ5" customClass="LoginController" customModule="SERS_Prototype" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Login controller" modalPresentationStyle="fullScreen" id="MiR-no-IZ5" customClass="LoginController" customModule="SERS_Prototype" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="b4F-DH-JYG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -104,7 +104,7 @@
         <!--WelcomePage-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" userLabel="WelcomePage" customClass="ViewController" customModule="SERS_Prototype" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="BYZ-38-t0r" userLabel="WelcomePage" customClass="ViewController" customModule="SERS_Prototype" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -181,7 +181,7 @@
         <!--RegisterPage-->
         <scene sceneID="QSq-Jp-Amt">
             <objects>
-                <viewController id="5ZS-EH-9v5" userLabel="RegisterPage" customClass="RegisterController" customModule="SERS_Prototype" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="5ZS-EH-9v5" userLabel="RegisterPage" customClass="RegisterController" customModule="SERS_Prototype" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XXb-JP-7sq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -349,7 +349,7 @@
         <!--Help Controller-->
         <scene sceneID="Thb-VL-ok1">
             <objects>
-                <viewController id="PB0-yZ-zaJ" userLabel="Help Controller" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="PB0-yZ-zaJ" userLabel="Help Controller" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IdH-OQ-6eM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -477,7 +477,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
         <!--NoLCardInfo-->
         <scene sceneID="91S-dG-KuF">
             <objects>
-                <viewController id="nzg-8v-UFN" userLabel="NoLCardInfo" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="nzg-8v-UFN" userLabel="NoLCardInfo" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jST-BV-iKc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -540,9 +540,9 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
         <!--NoLCard-->
         <scene sceneID="XK2-QK-Ywi">
             <objects>
-                <viewController id="gYP-UR-ovI" userLabel="NoLCard" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="gYP-UR-ovI" userLabel="NoLCard" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zFa-Do-rvu">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BackgroundInfogradient" translatesAutoresizingMaskIntoConstraints="NO" id="LKK-qb-XHK">
@@ -558,7 +558,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                                 <nil key="highlightedColor"/>
                             </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q1U-Mf-Cx8">
-                                <rect key="frame" x="0.0" y="798" width="135" height="44"/>
+                                <rect key="frame" x="0.0" y="852" width="135" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
@@ -572,7 +572,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                                 <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </toolbar>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NLz-zo-LI1">
-                                <rect key="frame" x="135" y="798" width="141" height="44"/>
+                                <rect key="frame" x="135" y="852" width="141" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
@@ -582,7 +582,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                                 <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </toolbar>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tlj-i5-AJQ">
-                                <rect key="frame" x="276" y="798" width="146" height="44"/>
+                                <rect key="frame" x="276" y="852" width="146" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
@@ -688,7 +688,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
         <!--VolunteeringScreen-->
         <scene sceneID="Z8J-Xo-uhb">
             <objects>
-                <viewController id="OOy-IK-GLs" userLabel="VolunteeringScreen" customClass="ViewControllerVolunteering" customModule="SERS_Prototype" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="OOy-IK-GLs" userLabel="VolunteeringScreen" customClass="ViewControllerVolunteering" customModule="SERS_Prototype" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="V0f-HT-cQI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -853,13 +853,13 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
         <!--DEWAHistory-->
         <scene sceneID="OBv-XN-mIq">
             <objects>
-                <viewController id="Z6V-Yf-oGh" userLabel="DEWAHistory" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Z6V-Yf-oGh" userLabel="DEWAHistory" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="saf-nn-t7s">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackgroundInfogradient" translatesAutoresizingMaskIntoConstraints="NO" id="oWC-oL-0Ks">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lPe-mI-Pg8">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="36"/>
@@ -897,7 +897,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                                 <nil key="highlightedColor"/>
                             </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a4J-qa-7Ei">
-                                <rect key="frame" x="0.0" y="798" width="143" height="44"/>
+                                <rect key="frame" x="0.0" y="852" width="143" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
@@ -907,7 +907,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                                 <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </toolbar>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eNI-ze-moq">
-                                <rect key="frame" x="292" y="798" width="132" height="44"/>
+                                <rect key="frame" x="292" y="852" width="132" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
@@ -922,7 +922,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                                 <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </toolbar>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SHW-Ju-A76">
-                                <rect key="frame" x="143" y="798" width="149" height="44"/>
+                                <rect key="frame" x="143" y="852" width="149" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
@@ -963,7 +963,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
         <!--View Controller-->
         <scene sceneID="Qe7-K3-ZEm">
             <objects>
-                <viewController id="hhH-cE-EaO" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="hhH-cE-EaO" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0JP-KS-frI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1028,7 +1028,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
         <!--View Controller-->
         <scene sceneID="pn1-8a-dUi">
             <objects>
-                <viewController id="vUp-hG-lpR" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="vUp-hG-lpR" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="B5u-RR-IT8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1131,7 +1131,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
         <!--HomePage-->
         <scene sceneID="JEG-Wf-fRr">
             <objects>
-                <viewController storyboardIdentifier="HomeVC" id="Yp9-Q6-Wz3" userLabel="HomePage" customClass="HomeViewController" customModule="SERS_Prototype" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeVC" modalPresentationStyle="fullScreen" id="Yp9-Q6-Wz3" userLabel="HomePage" customClass="HomeViewController" customModule="SERS_Prototype" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="crD-0g-rV8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1317,7 +1317,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
         <!--Gifts-->
         <scene sceneID="7Xy-Y0-bQQ">
             <objects>
-                <viewController id="o05-fN-AI3" userLabel="Gifts" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="o05-fN-AI3" userLabel="Gifts" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2dn-2v-ouH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1442,7 +1442,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
         <!--VolunteeringInfo-->
         <scene sceneID="2oc-qt-GCZ">
             <objects>
-                <viewController id="JV8-HC-7K7" userLabel="VolunteeringInfo" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="JV8-HC-7K7" userLabel="VolunteeringInfo" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4Sq-Dk-WyY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1506,7 +1506,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
         <!--DEWABill-->
         <scene sceneID="hGl-kc-oE7">
             <objects>
-                <viewController id="W1W-Kx-tn3" userLabel="DEWABill" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="W1W-Kx-tn3" userLabel="DEWABill" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FKA-eC-e1c">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1610,7 +1610,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
         <!--Contact-->
         <scene sceneID="hU0-cb-N0y">
             <objects>
-                <viewController id="g7y-yN-zWX" userLabel="Contact" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="g7y-yN-zWX" userLabel="Contact" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ABx-nI-KrI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1754,13 +1754,13 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
         <!--View Controller-->
         <scene sceneID="tUW-6v-p8O">
             <objects>
-                <viewController id="m5Y-1q-mcY" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="m5Y-1q-mcY" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IKR-HI-YbV">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackgroundInfogradient" translatesAutoresizingMaskIntoConstraints="NO" id="KZJ-bY-FFi">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DEWA BILL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="enS-YP-Rpw">
                                 <rect key="frame" x="0.0" y="29" width="414" height="64"/>
@@ -1807,7 +1807,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                                 <nil key="highlightedColor"/>
                             </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lck-Ts-2sF">
-                                <rect key="frame" x="0.0" y="798" width="139" height="44"/>
+                                <rect key="frame" x="0.0" y="852" width="139" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
@@ -1821,7 +1821,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                                 <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </toolbar>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tYy-o3-34C">
-                                <rect key="frame" x="139" y="798" width="140" height="44"/>
+                                <rect key="frame" x="139" y="852" width="140" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
@@ -1835,7 +1835,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                                 <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </toolbar>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3QK-EX-VQv">
-                                <rect key="frame" x="279" y="798" width="135" height="44"/>
+                                <rect key="frame" x="279" y="852" width="135" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
@@ -1864,9 +1864,9 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
         <!--View Controller-->
         <scene sceneID="2VD-6p-C8t">
             <objects>
-                <viewController id="Mpn-tf-YQg" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Mpn-tf-YQg" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Z6M-bH-Uut">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BackgroundInfogradient" translatesAutoresizingMaskIntoConstraints="NO" id="MZL-Px-KUz">
@@ -1917,7 +1917,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                                 </connections>
                             </button>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KFu-mo-T0B">
-                                <rect key="frame" x="0.0" y="798" width="127" height="44"/>
+                                <rect key="frame" x="0.0" y="852" width="127" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
@@ -1931,7 +1931,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                                 <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </toolbar>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pqr-lT-AEd">
-                                <rect key="frame" x="127" y="798" width="150" height="44"/>
+                                <rect key="frame" x="127" y="852" width="150" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
@@ -1945,7 +1945,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                                 <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </toolbar>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tA1-LA-CUh">
-                                <rect key="frame" x="277" y="798" width="137" height="44"/>
+                                <rect key="frame" x="277" y="852" width="137" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
@@ -1967,7 +1967,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
         <!--DEWABillInfo-->
         <scene sceneID="QQd-cH-4AU">
             <objects>
-                <viewController interfaceStyle="light" id="MrD-WG-Aw2" userLabel="DEWABillInfo" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" interfaceStyle="light" id="MrD-WG-Aw2" userLabel="DEWABillInfo" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aDD-lg-SgM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2033,7 +2033,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
         <!--Cart-->
         <scene sceneID="nxb-Wr-aVF">
             <objects>
-                <viewController id="r00-VT-ZIl" userLabel="Cart" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="r00-VT-ZIl" userLabel="Cart" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rHW-a4-3Mj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2112,9 +2112,9 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
         <!--View Controller-->
         <scene sceneID="9Gs-1S-n7V">
             <objects>
-                <viewController id="hBe-bw-Pnb" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="hBe-bw-Pnb" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZLV-TO-M4M">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BackgroundInfogradient" translatesAutoresizingMaskIntoConstraints="NO" id="Rjb-Ha-G3T">
@@ -2138,7 +2138,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                                 <nil key="highlightedColor"/>
                             </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ReD-M7-6co">
-                                <rect key="frame" x="0.0" y="798" width="144" height="44"/>
+                                <rect key="frame" x="0.0" y="852" width="144" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
@@ -2148,7 +2148,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                                 <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </toolbar>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UwS-9y-uI3">
-                                <rect key="frame" x="144" y="798" width="148" height="44"/>
+                                <rect key="frame" x="144" y="852" width="148" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
@@ -2162,7 +2162,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                                 <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </toolbar>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jdK-dy-hOJ">
-                                <rect key="frame" x="292" y="798" width="122" height="44"/>
+                                <rect key="frame" x="292" y="852" width="122" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
@@ -2215,7 +2215,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
         <!--View Controller Volunteering-->
         <scene sceneID="2wl-2d-9sH">
             <objects>
-                <viewController id="Aeu-sP-bsW" customClass="ViewControllerVolunteering" customModule="SERS_Prototype" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Aeu-sP-bsW" customClass="ViewControllerVolunteering" customModule="SERS_Prototype" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Twa-b4-afF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2318,7 +2318,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
         <!--Navigation Controller-->
         <scene sceneID="ayc-CA-1zs">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="cTc-s9-XJ2" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" navigationBarHidden="YES" id="cTc-s9-XJ2" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="Gr2-mC-kGL"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="UBw-XC-Emx">
@@ -2361,8 +2361,8 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
         <segue reference="Yl8-8v-YtJ"/>
         <segue reference="qbL-dc-gvK"/>
         <segue reference="q3q-93-Zra"/>
-        <segue reference="XJC-6g-bhY"/>
-        <segue reference="vpE-Iw-sa2"/>
-        <segue reference="KWK-KP-Sp6"/>
+        <segue reference="FkN-JC-929"/>
+        <segue reference="gIw-42-3g2"/>
+        <segue reference="UVE-86-tkV"/>
     </inferredMetricsTieBreakers>
 </document>
