@@ -391,10 +391,6 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6p9-i0-55s">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BackgroundInfogradient" translatesAutoresizingMaskIntoConstraints="NO" id="dKH-bJ-7eC">
-                                                <rect key="frame" x="-21" y="66" width="457" height="869"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HELP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xZq-Oo-3Mf">
                                                 <rect key="frame" x="0.0" y="8" width="414" height="73"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -403,6 +399,10 @@
                                                 <color key="textColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BackgroundInfogradient" translatesAutoresizingMaskIntoConstraints="NO" id="dKH-bJ-7eC">
+                                                <rect key="frame" x="-21" y="66" width="457" height="869"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mbz-YE-KVU">
                                                 <rect key="frame" x="0.0" y="88" width="414" height="773"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -918,15 +918,6 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                                     <segue destination="W1W-Kx-tn3" kind="show" id="bBY-Yw-o7p"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t5b-aD-A98">
-                                <rect key="frame" x="20" y="210" width="374" height="195"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet pharetra turpis in commodo. Aenean vitae lorem risus. Etiam arcu dui, pellentesque id dictum id, porta maximus neque. Ut viverra sem est. Maecenas eu consequat augue. Integer faucibus vitae erat in gravida. Morbi eget dui id orci vehicula iaculis. In nec quam mauris. In ullamcorper elit eu sem pellentesque, nec bibendum ligula vulputate
-</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a4J-qa-7Ei">
                                 <rect key="frame" x="0.0" y="852" width="143" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -975,6 +966,16 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tri-Mg-FhT">
+                                <rect key="frame" x="20" y="176" width="374" height="599"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <mutableString key="text">   First Quarter  Points Earned By Reducing Energy Consumption: 500 Points Earned By Reducing Water Consumption: 100 Total Points Earned This Quarter: 600  Second Quarter 
+Points Earned By Reducing Energy Consumption: 650 Points Earned By Reducing Water Consumption: 100 Total Points Earned This Quarter: 750  Third Quarter  Points Earned By Reducing Energy Consumption: 550 Points Earned By Reducing Water Consumption: 90 Total Points Earned This Quarter: 640  Fourth Quarter  Points Earned By Reducing Energy Consumption: 600 Points Earned By Reducing Water Consumption: 50 Total Points Earned This Quarter: 650</mutableString>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.96078431372549022" green="0.94901960784313721" blue="0.88235294117647056" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
@@ -1599,6 +1600,38 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </toolbar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DEWA Quarter Graph" translatesAutoresizingMaskIntoConstraints="NO" id="1GA-aD-raq">
+                                <rect key="frame" x="0.0" y="24" width="414" height="661"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Points Earned By Reducing Water Consumption: 600" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="09C-ZD-Nwv">
+                                <rect key="frame" x="28" y="636" width="374" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Points Earned By Reducing Energy Consumption: 50" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TE1-G2-Quw">
+                                <rect key="frame" x="20" y="693" width="374" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Total Points Earned This Quarter: 650" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4D0-iE-tee">
+                                <rect key="frame" x="28" y="744" width="366" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Total Points Earned This Year: 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SXF-O6-m2A">
+                                <rect key="frame" x="28" y="802" width="366" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.96078431372549022" green="0.94901960784313721" blue="0.88235294117647056" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
@@ -2059,10 +2092,10 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9M9-WJ-vad">
-                                <rect key="frame" x="20" y="196" width="374" height="577"/>
+                                <rect key="frame" x="20" y="196" width="374" height="628"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">1/12/19 Travelled To Dubai Internet City Via Metro (5 AED Fare) Travelled To Burjuman Via Bus (5 AED Fare)  2/12/19 Travelled To Mall Of Emirates Via Metro (5 AED Fare) Travelled To Palm Jumeira Via Tram (5 AED Fare) Travelled To Burjuman Via Metro (5 AED Fare)  3/12/19 Travelled To Dubai Internet City Via Metro (5 AED Fare) Travelled To Burjuman Via Dubai Taxi (55 AED Fare)  4/12/19 Travelled To Burj Khalifa/Dubai Mall Via Metro (5 AED Fare) Travelled To Ibn Batutta Via Metro (5 AED Fare) Travelled To Burjuman Via Metro (5 AED Fare)  5/12/19 Travelled To Sharaf DG Via Taxi (50 AED Fare) Travelled To Burjuman Via Taxi (50 AED Fare)  6/12/19 (No Recorded Trips)  7/12/19 Travelled To Dubai Internet City Via Metro (5 AED Fare) Travelled To Burjuman Via Metro (5 AED Fare)</string>
+                                <mutableString key="text">1/12/19  Travelled To Dubai Internet City Via Metro (5 AED Fare) Travelled To Burjuman Via Bus (5 AED Fare)  2/12/19  Travelled To Mall Of Emirates Via Metro (5 AED Fare) Travelled To Palm Jumeira Via Tram (5 AED Fare) Travelled To Burjuman Via Metro (5 AED Fare)  3/12/19  Travelled To Dubai Internet City Via Metro (5 AED Fare) Travelled To Burjuman Via Dubai Taxi (55 AED Fare)  4/12/19  Travelled To Burj Khalifa/Dubai Mall Via Metro (5 AED Fare) Travelled To Ibn Batutta Via Metro (5 AED Fare) Travelled To Burjuman Via Metro (5 AED Fare)  5/12/19  Travelled To Sharaf DG Via Taxi (50 AED Fare) Travelled To Burjuman Via Taxi (50 AED Fare)  6/12/19  (No Recorded Trips)  7/12/19  Travelled To Dubai Internet City Via Metro (5 AED Fare) Travelled To Burjuman Via Metro (5 AED Fare)</mutableString>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no"/>
@@ -2202,6 +2235,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
     <resources>
         <image name="AlNoorIcon" width="855" height="207"/>
         <image name="BackgroundInfogradient" width="1000" height="2059"/>
+        <image name="DEWA Quarter Graph" width="800" height="1033"/>
         <image name="EEK1" width="855" height="207"/>
         <image name="Email" width="285" height="69"/>
         <image name="ExpoIcon" width="285" height="69"/>
@@ -2216,19 +2250,18 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
         <image name="volunteer" width="800" height="400"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="3He-g6-D3y"/>
         <segue reference="rpa-sX-0go"/>
         <segue reference="B8f-jN-uv6"/>
         <segue reference="i6W-h5-Xty"/>
-        <segue reference="HOJ-aZ-PYc"/>
-        <segue reference="zKw-8a-cdg"/>
-        <segue reference="HN8-RN-sVq"/>
+        <segue reference="dPi-UP-SGD"/>
+        <segue reference="hfU-jQ-cRD"/>
+        <segue reference="Zq6-98-Nnu"/>
         <segue reference="7iB-Sh-coP"/>
         <segue reference="BA6-eF-vzR"/>
         <segue reference="qbL-dc-gvK"/>
         <segue reference="C2c-SF-HIl"/>
         <segue reference="FkN-JC-929"/>
-        <segue reference="gIw-42-3g2"/>
+        <segue reference="ion-5F-t84"/>
         <segue reference="Ftq-mn-X19"/>
         <segue reference="Cn1-xn-xZE"/>
     </inferredMetricsTieBreakers>
