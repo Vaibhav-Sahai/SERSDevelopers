@@ -1479,8 +1479,15 @@ Points Earned By Reducing Energy Consumption: 650 Points Earned By Reducing Wa
                                     <segue destination="nzg-8v-UFN" kind="show" id="4vv-Nb-Yc3"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="S-Points: 3205" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="65g-M1-afP">
-                                <rect key="frame" x="10" y="56" width="127" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="S-Points:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rRM-ls-Wh6">
+                                <rect key="frame" x="10" y="56" width="70" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3205" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="65g-M1-afP">
+                                <rect key="frame" x="88" y="56" width="45" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2734,10 +2741,10 @@ Points Earned By Reducing Energy Consumption: 650 Points Earned By Reducing Wa
         <segue reference="HOJ-aZ-PYc"/>
         <segue reference="zKw-8a-cdg"/>
         <segue reference="HN8-RN-sVq"/>
-        <segue reference="NhZ-iQ-ccP"/>
+        <segue reference="rrh-WK-HTp"/>
         <segue reference="29k-pv-kQd"/>
         <segue reference="wmQ-oh-pbT"/>
-        <segue reference="NcV-tn-fT6"/>
+        <segue reference="yqP-iI-BVz"/>
         <segue reference="q3q-93-Zra"/>
         <segue reference="FkN-JC-929"/>
         <segue reference="vpE-Iw-sa2"/>
