@@ -127,7 +127,7 @@
                                 <rect key="frame" x="0.0" y="-44" width="414" height="984"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZPU-tC-l9o" userLabel="RegisterButton">
-                                <rect key="frame" x="64.666666666666686" y="502.66666666666674" width="285" height="69"/>
+                                <rect key="frame" x="-78" y="502.66666666666674" width="570" height="138"/>
                                 <gestureRecognizers/>
                                 <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="Register A New Account" backgroundImage="Email">
@@ -408,6 +408,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mbz-YE-KVU">
                                 <rect key="frame" x="0.0" y="99" width="414" height="773"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">FAQS
 Q1) Is my DEWA bill automatically connected to the app? Or do I need to upload the bill?
 A1) When you register with your account, your dewa account details are automatically taken by the app via the registration page. Your monthly and annual bills are automatically present in the app from the moment you log in.
@@ -424,8 +425,8 @@ A4) From the home screen, head on over to the “Gifts” section and choose any
 Q5) I can't find my question listed here. What should i do?
 A5) Please head on over to our site (www.sers.gov/help) and we will connect you to our representative who would help you in resolving any problems/questions.
 </string>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d7g-mK-ArS">
@@ -1835,7 +1836,7 @@ Points Earned By Reducing Energy Consumption: 650 Points Earned By Reducing Wa
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Total Points Earned This Year: 650" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SXF-O6-m2A">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Total Points Earned This Year: 2640" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SXF-O6-m2A">
                                 <rect key="frame" x="28" y="802" width="366" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -2741,11 +2742,11 @@ Points Earned By Reducing Energy Consumption: 650 Points Earned By Reducing Wa
         <segue reference="HOJ-aZ-PYc"/>
         <segue reference="zKw-8a-cdg"/>
         <segue reference="HN8-RN-sVq"/>
-        <segue reference="rrh-WK-HTp"/>
-        <segue reference="xHt-sW-kwF"/>
+        <segue reference="7iB-Sh-coP"/>
+        <segue reference="6oQ-fx-En8"/>
         <segue reference="wmQ-oh-pbT"/>
         <segue reference="yqP-iI-BVz"/>
-        <segue reference="q3q-93-Zra"/>
+        <segue reference="C2c-SF-HIl"/>
         <segue reference="XJC-6g-bhY"/>
         <segue reference="gIw-42-3g2"/>
         <segue reference="uB0-C6-Xi9"/>
