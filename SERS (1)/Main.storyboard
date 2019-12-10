@@ -500,7 +500,7 @@ A5) Please head on over to our site (www.sers.gov/help) and we will connect you 
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="27" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L6e-tk-la4">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="27" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L6e-tk-la4">
                                 <rect key="frame" x="41" y="432" width="333" height="317"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1711,7 +1711,7 @@ Points Earned By Reducing Energy Consumption: 650 Points Earned By Reducing Wa
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gwg-Nu-wHw">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gwg-Nu-wHw">
                                 <rect key="frame" x="44" y="413" width="326" height="309"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2322,7 +2322,7 @@ Points Earned By Reducing Energy Consumption: 650 Points Earned By Reducing Wa
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3FG-Kr-GKG">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3FG-Kr-GKG">
                                 <rect key="frame" x="38" y="400" width="338" height="377"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">This app successfully integrates your DEWA monthly bill with a well organized point system which rewards you for using less energy and water. These points (called S-Points) also depend on various other features including but not limited to numbers of room, area where the house is situated etc. S-Points can then be used to get vouchers and gifts from our shop. For more information, please refer to the help page.</string>
@@ -2742,12 +2742,12 @@ Points Earned By Reducing Energy Consumption: 650 Points Earned By Reducing Wa
         <segue reference="zKw-8a-cdg"/>
         <segue reference="HN8-RN-sVq"/>
         <segue reference="rrh-WK-HTp"/>
-        <segue reference="29k-pv-kQd"/>
+        <segue reference="xHt-sW-kwF"/>
         <segue reference="wmQ-oh-pbT"/>
         <segue reference="yqP-iI-BVz"/>
         <segue reference="q3q-93-Zra"/>
-        <segue reference="FkN-JC-929"/>
-        <segue reference="vpE-Iw-sa2"/>
+        <segue reference="XJC-6g-bhY"/>
+        <segue reference="gIw-42-3g2"/>
         <segue reference="uB0-C6-Xi9"/>
         <segue reference="Cn1-xn-xZE"/>
     </inferredMetricsTieBreakers>
